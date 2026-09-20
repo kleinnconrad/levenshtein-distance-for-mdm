@@ -1,0 +1,16 @@
+[project]
+name = "levenshtein-distance-for-mdm"
+version = "0.1.0"
+description = "Levenshtein distance package"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "Levenshtein==0.27.3",
+    "pandas==3.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "flake8>=7.0.0",
+]
