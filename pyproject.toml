@@ -5,7 +5,7 @@ description = "Levenshtein distance package"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "Levenshtein==0.27.3",
+    "Levenshtein==0.27.5",
     "pandas==3.0.5",
 ]
 
